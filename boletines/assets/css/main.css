@@ -1,0 +1,143 @@
+/*comentario*/
+.title{
+  font-family: 'Spartan', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5em;
+}
+a{
+  text-decoration: none;
+  color: #7d51ed;
+  font-weight: 100;
+}
+a:hover{
+  opacity: 0.7;
+}
+image{
+}
+/*intelineado y grosor de fuente*/
+.paragraph{
+  text-align: justify;
+  line-height: 1.8em;
+  font-weight: 300;
+}
+.fa-star{
+  color:#ffce0a;
+}
+.container{
+  font-family: 'Quicksand', sans-serif;
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+  height: 100vh;
+  display: flex;
+  /*centrar vertical y horizonal mente con flexxbox*/
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  position: relative;
+  max-width: 960px;
+  width: :100%;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 25px;
+  overflow: scroll;
+}
+.content{
+  padding: 1em;
+}
+td{
+  display: block;
+  width: 100%;
+}
+td:nth-of-type(1){
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#437155;
+}
+
+.actions{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.close{
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color:#b64e69;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  /*borde de la tabla*/
+
+.table{
+  width: 100%;
+  border-spacing: 0;
+}
+.table td, .table th{
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even){ background-color: #c1e7f5;}
+
+
+.title-item{
+/*  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #437155;*/
+  font-size: 2em;
+  border-bottom: #437155 solid 2px ;
+  padding-bottom: 1em;/*el espacio entre el contenido y el borde*/
+
+}
+.address{
+  font-weight: bold;
+  color:#c1e7f5;
+  font-size: 1.2em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.main_image{
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+}
+.position{
+  background-color:#437155;
+  color: white;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+@media (min-width:900px) {
+  tth{
+    display: table-cell;
+  }
+  td{
+    width: auto;
+    display: table-cell;
+  }
+  td:nth-of-type(1){
+    font-size:1em;
+  }
+  .content{
+    padding: 1.8em;
+    overflow: hidden;
+  }
+}
+
+@media (min-height:550px){
+  .content{
+    height: 500px;
+  }
+}
