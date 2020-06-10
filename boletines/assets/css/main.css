@@ -70,7 +70,7 @@ td:nth-of-type(1){
   border-radius: 50%;
   background-color:#b64e69;
   display: inline-block;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 s3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-weight: 300;
   cursor: pointer;
   display: flex;
