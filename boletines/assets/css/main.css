@@ -78,18 +78,20 @@ td:nth-of-type(1){
   justify-content: center;
 }
   /*borde de la tabla*/
-
+th{
+  display: none;
+}
 .table{
   width: 100%;
   border-spacing: 0;
 }
+
 .table td, .table th{
   padding: 1em;
   text-align: left;
 }
 
 .table tr:nth-child(even){ background-color: #c1e7f5;}
-
 
 .title-item{
 /*  border-bottom-style: solid;
@@ -123,7 +125,6 @@ td:nth-of-type(1){
 @media (min-width:900px) {
   th{
     display: table-cell;
-    display: none;
   }
   td{
     width: auto;
